@@ -1,0 +1,94 @@
+.bg-light-cream {
+  background-color: #ffe4b5ff;
+  color: #77614d;
+}
+ h1, h2, h3, h4, h5, h6 {
+           font-family: 'Playpen Sans', sans-serif;
+           font-weight: 700;}
+      p,a {
+          font-family: 'Athiti', sans-serif;
+           font-weight: 400;
+           font-size: 130%;
+        }
+        /*     div {
+      border: 2px solid purple;
+    } */
+     .bgo {
+  background-color: rgb(255, 241, 218);
+  color: #77614d;
+}
+     .bgc {
+  background-color: rgb(248, 162, 13);
+  color: #ffffff;
+}
+.carousel-img {
+  height: 400px;           /* ปรับความสูงตามต้องการ */
+  object-fit: cover;       /* ตัดภาพให้พอดีโดยไม่เสียสัดส่วน */
+}
+
+/* ปรับขนาดปุ่มเลื่อนให้ responsive */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;              /* ปรับขนาดพื้นที่คลิกของปุ่ม */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100% 100%;
+  width: 40px;
+  height: 40px;
+}
+
+/* Responsive สำหรับหน้าจอเล็ก */
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 250px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+.carousel-img {
+  width: 100%;
+  height: 500px;           /* สำหรับหน้าจอใหญ่ */
+  object-fit: cover;
+}
+
+/* ปรับขนาดภาพสำหรับแท็บเล็ต */
+@media (max-width: 992px) {
+  .carousel-img {
+    height: 400px;
+  }
+}
+
+/* ปรับขนาดภาพสำหรับมือถือ */
+@media (max-width: 576px) {
+  .carousel-img {
+    height: 250px;
+  }
+}
+
+/* ปรับขนาดปุ่มเลื่อนให้ responsive */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100% 100%;
+  width: 40px;
+  height: 40px;
+}
+
+/* ปรับขนาดปุ่มสำหรับมือถือ */
+@media (max-width: 576px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
